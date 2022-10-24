@@ -1,0 +1,17 @@
+<div class="container">
+
+  <div>
+    <button mat-raised-button color="accent" (click)="loadData()">
+      Toggle Button to Load Data
+    </button>
+  </div>
+
+  <div class="loading">
+    <mat-spinner *ngIf="showSpinner"></mat-spinner>
+  </div>
+
+<!--  <div>-->
+<!--    <mat-progress-spinner value="75"></mat-progress-spinner>-->
+<!--  </div>-->
+
+</div>
