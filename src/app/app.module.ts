@@ -15,7 +15,8 @@ import {NavbarComponent} from './components/sample/navbar/navbar.component';
 import {ProgressSpinnerComponent} from './components/sample/progress-spinner/progress-spinner.component';
 import {SidenavComponent} from './components/sample/sidenav/sidenav.component';
 import {TypographyComponent} from './components/sample/typography/typography.component';
-import { TitleComponent } from './components/sample/title/title.component';
+import {TitleComponent} from './components/sample/title/title.component';
+import {FilterPipe} from './pipes/filter.pipe';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { TitleComponent } from './components/sample/title/title.component';
     ProgressSpinnerComponent,
     SidenavComponent,
     TypographyComponent,
-    TitleComponent
+    TitleComponent,
+    FilterPipe
   ],
   imports: [
     BrowserModule,
