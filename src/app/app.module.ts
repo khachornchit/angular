@@ -17,6 +17,8 @@ import {SidenavComponent} from './components/sample/sidenav/sidenav.component';
 import {TypographyComponent} from './components/sample/typography/typography.component';
 import {TitleComponent} from './components/sample/title/title.component';
 import {FilterPipe} from './pipes/filter.pipe';
+import { ObserableComponent } from './components/sample/obserable/obserable.component';
+import { SimpleComponent } from './components/sample/obserable/simple/simple.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import {FilterPipe} from './pipes/filter.pipe';
     SidenavComponent,
     TypographyComponent,
     TitleComponent,
-    FilterPipe
+    FilterPipe,
+    ObserableComponent,
+    SimpleComponent
   ],
   imports: [
     BrowserModule,
