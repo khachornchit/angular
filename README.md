@@ -1,4 +1,4 @@
-# Angular14 Material
+# Angular
 
 ```shell
 Example of a simple Angular 14 application using Angular Material, SCSS, TypeScript, FilterPipe, etc. 
